@@ -9,7 +9,7 @@ title: 'azure',
 message: process.env.MESSAGE || "This is Development"
   };
  
-  res.render('index', { title: 'Express' });
+  res.render('index', model);
 });
 
 module.exports = router;
